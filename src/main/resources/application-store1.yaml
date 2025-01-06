@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: may-2024-spring
+
+reference-data:
+  engineTypes: Бензиновий, Дизельний, Гібридний
+  fuels:
+    - name: Дизель
+      types: Зимовий, Літній, Акртичний
+    - name: Бензин
+      types: А-95, A-98, A-100
+    - name: Електрика
+      types:

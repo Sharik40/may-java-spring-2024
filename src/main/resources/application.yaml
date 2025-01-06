@@ -1,1 +1,6 @@
-spring.application.name=may-java-spring-2024
+spring:
+  application:
+    name: may-2024-spring
+
+  profiles:
+    active: store1
