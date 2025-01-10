@@ -5,9 +5,9 @@ spring:
 reference-data:
   engineTypes: Бензиновий, Дизельний, Гібридний
   fuels:
-    - name: Дизель
+    - name: Дизельний
       types: Зимовий, Літній, Акртичний
-    - name: Бензин
-      types: А-95, A-98, A-100
+    - name: Бензиновий
+      types: A-95, A-98, A-100
     - name: Електрика
       types:

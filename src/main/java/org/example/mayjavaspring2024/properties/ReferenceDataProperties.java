@@ -6,26 +6,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-//@Data
+@Data
 @Component
 @ConfigurationProperties(prefix = "reference-data")
 public class ReferenceDataProperties {
     private List<String> engineTypes;
     private List<Fuel> fuels;
-
-    public List<String> getEngineTypes() {
-        return engineTypes;
-    }
-
-    public void setEngineTypes(List<String> engineTypes) {
-        this.engineTypes = engineTypes;
-    }
-
-    public List<Fuel> getFuels() {
-        return fuels;
-    }
-
-    public void setFuels(List<Fuel> fuels) {
-        this.fuels = fuels;
-    }
 }
